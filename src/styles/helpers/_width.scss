@@ -1,0 +1,9 @@
+@import "src/styles/core/variables";
+
+@for $size from 0 through 100 {
+  @each $key, $value in $units {
+    .w-#{$size}#{$key} {
+      width: #{$size}#{$value} !important;
+    }
+  }
+}

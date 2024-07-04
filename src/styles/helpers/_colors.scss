@@ -1,0 +1,11 @@
+@import "src/styles/core/variables";
+
+@each $key, $value in $colors {
+  .color-#{$key} {
+    color: #{$value} !important;
+  }
+
+  .bg-color-#{$key} {
+    background-color: #{$value} !important;
+  }
+}

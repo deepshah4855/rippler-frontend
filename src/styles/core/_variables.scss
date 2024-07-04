@@ -1,0 +1,26 @@
+$units: (
+  px: "px",
+  em: "em",
+  rem: "rem",
+  per: "%",
+);
+
+$positions: (
+  t: "top",
+  r: "right",
+  b: "bottom",
+  l: "left",
+);
+
+$colors: (
+  primary: #a8917f,
+  textBlack: #141414,
+  textGrey: #383838,
+  textLightGrey: #898989,
+);
+
+// Width
+$width-320: 320px;
+$width-600: 600px;
+$width-1200: 1200px;
+

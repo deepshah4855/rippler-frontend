@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "brand": "Burberry",
+    "name": "Flowy Dress with pink and gold",
+    "size": 4,
+    "rental": {
+      "value": 12,
+      "currency": "GBP"
+    },
+    "retail": {
+      "value": 129.99,
+      "currency": "GBP"
+    },
+    "imageName": "item-1.png"
+  },
+  {
+    "id": 2,
+    "brand": "Prada",
+    "name": "Beach dress",
+    "size": 8,
+    "rental": {
+      "value": 12,
+      "currency": "GBP"
+    },
+    "retail": {
+      "value": 129.99,
+      "currency": "GBP"
+    },
+    "imageName": "item-2.png"
+  },
+  {
+    "id": 3,
+    "brand": "Bhandage",
+    "name": "Red dress for evening wear",
+    "size": 12,
+    "rental": {
+      "value": 12,
+      "currency": "GBP"
+    },
+    "retail": {
+      "value": 129.99,
+      "currency": "GBP"
+    },
+    "imageName": "item-3.png"
+  },
+  {
+    "id": 4,
+    "brand": "Prada",
+    "name": "Wedding guest",
+    "size": 12,
+    "rental": {
+      "value": 12,
+      "currency": "GBP"
+    },
+    "retail": {
+      "value": 129.99,
+      "currency": "GBP"
+    },
+    "imageName": "item-4.png"
+  },
+  {
+    "id": 5,
+    "brand": "Ansell",
+    "name": "Nightwear",
+    "size": 14,
+    "rental": {
+      "value": 12,
+      "currency": "GBP"
+    },
+    "retail": {
+      "value": 129.99,
+      "currency": "GBP"
+    },
+    "imageName": "item-5.png"
+  },
+  {
+    "id": 6,
+    "brand": "Desacada",
+    "name": "Summer dress",
+    "size": 8,
+    "rental": {
+      "value": 12,
+      "currency": "GBP"
+    },
+    "retail": {
+      "value": 129.99,
+      "currency": "GBP"
+    },
+    "imageName": "item-6.png"
+  }
+]

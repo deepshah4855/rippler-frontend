@@ -1,0 +1,15 @@
+@import "src/styles/core/variables";
+
+@for $size from 0 through 48 {
+  @each $key, $value in $units {
+    .font-size-#{$size}#{$key} {
+      font-size: #{$size}#{$value} !important;
+    }
+  }
+}
+
+@for $size from 1 through 9 {
+  .font-weight-#{$size} {
+    font-weight: #{($size * 100)} !important;
+  }
+}

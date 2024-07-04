@@ -1,0 +1,7 @@
+<div class="flex-row-wrap px-64px pb-36px row-gap-48px column-gap-16px">
+  <ng-container *ngIf="productList$ | async as products">
+    <ng-container *ngFor="let product of products; trackBy:trackByFn">
+      <rippler-product-card [productInfo]="product"></rippler-product-card>
+    </ng-container>
+  </ng-container>
+</div>

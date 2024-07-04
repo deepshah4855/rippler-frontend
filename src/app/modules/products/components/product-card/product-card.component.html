@@ -1,0 +1,18 @@
+<div class="product-container flex-column gap-4px">
+  <img class="w-100per" [src]="'assets/images/'+productInfo.imageName">
+  <div>
+    <div class="font-size-12px color-textLightGrey">
+      RRP {{ productInfo.retail.value | currency: productInfo.retail.currency }}
+    </div>
+    <div class="font-size-18px font-weight-6 mt-8px mb-2px">
+      <span class="color-primary">{{ productInfo.brand }} </span>
+      <span class="color-textBlack">{{ productInfo.name }}</span>
+    </div>
+    <div class="font-size-16px color-textGrey mb-2px">
+      Size {{ productInfo.size }}
+    </div>
+    <div class="font-size-16px color-textGrey">
+      {{ productInfo.rental.value | currency: productInfo.rental.currency }} Rental
+    </div>
+  </div>
+</div>
